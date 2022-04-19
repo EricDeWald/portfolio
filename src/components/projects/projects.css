@@ -1,0 +1,7 @@
+.projects{
+    background-color: var(--primary);
+    color: var(--neonO);
+    width: 100%;
+    height: calc(100vh - 100px);
+    scroll-snap-align: start;
+}
