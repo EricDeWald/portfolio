@@ -2,7 +2,7 @@ import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact"
-import "./App.css"
+import "./app.css"
 
 function App() {
   return (
