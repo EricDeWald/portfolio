@@ -1,8 +1,17 @@
 @import "../../globalStyle.css";
+
 .intro{
     background-color: var(--primary);
     color: var(--neonO);
     width: 100%;
     height: calc(100vh - 100px);
     scroll-snap-align: start;
+    display: flex;
+}
+
+.intro-left{
+    flex: 1;
+}
+.intro-right{
+    flex: 1;
 }
