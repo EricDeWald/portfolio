@@ -1,11 +1,16 @@
 @import "../../globalStyle.css";
 
-.topbar{
+.topbar {
+    margin: 2%;
+    padding: 0%;
     width: 100%;
     height: 100px;
-    background-image:linear-gradient(var(--neonB),var(--primary) 99%);
-    position: fixed;
+    /* background-image: linear-gradient(var(--neonB), var(--primary) 99%); */
+    background-color: transparent;
+    position: absolute;
+    display: flex;
     top: 0;
     z-index: 2;
     /* var(--primary) 99% */
+    color: var(--neonP);
 }

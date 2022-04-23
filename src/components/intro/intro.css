@@ -1,17 +1,71 @@
 @import "../../globalStyle.css";
 
-.intro{
-    background-color: var(--primary);
+.intro {
+    padding-top: 0%;
+    margin: 0%;
+    /* background-color: var(--primary); */
     color: var(--neonO);
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100vh;
     scroll-snap-align: start;
     display: flex;
 }
 
-.intro-left{
+.intro-left {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation-name: slidein;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: unset;
+    animation-direction: normal;
 }
-.intro-right{
+
+@keyframes slidein {
+    0% {
+        left: -100%;
+    }
+
+    70% {
+        left: 30px;
+    }
+
+    95% {
+        left: -20px;
+    }
+
+    100% {
+        left: 0%
+    }
+}
+
+.intro-right {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.intro-name {
+    font-size: 50px;
+    animation-name: slidein;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: unset;
+    animation-direction: normal;
+}
+
+.intro-text {
+    font-size: 20px;
+    animation-name: slidein;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: unset;
+    animation-direction: normal;
 }
