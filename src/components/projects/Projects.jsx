@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="projects">
             <div className="project-left">
             <section class="Tile">
-                <h2>Rotten Potato</h2>
+                <h2>Rotten Potatos</h2>
                 <a href="https://ahnjaeyung.github.io/Project_1/"><img src={rPotato} alt="green code"></img></a>
                 <a href="https://github.com/ahnjaeyung/Project_1.git"><p id="blerb">See Code</p></a>
             </section>
