@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 import rPotato from "../assets/images/rottenPotato_sm.png"
-import workDay from "../assets/images/workday_sm.png"
+import dollars from "../assets/images/dollars_and_bills_DT.png"
 import resturnal from "../assets/images/resternal.png"
 import weather from "../assets/images/weather_sm.png"
 
@@ -15,9 +15,9 @@ export default function Projects() {
                 <a href="https://github.com/ahnjaeyung/Project_1.git"><p id="blerb">See Code</p></a>
             </section>
             <section class="Tile">
-                <h2>Workday Scheduler</h2>
-                <a href="https://ericdewald.github.io/Assignment-5_Work_Day_Scheduler/"><img src={workDay} alt="blue code"></img></a>
-                <a href="https://github.com/EricDeWald/Assignment-5_Work_Day_Scheduler.git"><p id="blerb">See Code</p></a>
+                <h2>Dollars and Bills</h2>
+                <a href="https://dollars-and-bills.herokuapp.com//"><img src={dollars} alt="blue code"></img></a>
+                <a href="https://github.com/EricDeWald/Dollars_and_Bills"><p id="blerb">See Code</p></a>
             </section>
             </div>
             <div className="project-right">
