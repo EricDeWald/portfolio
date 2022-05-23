@@ -12,5 +12,12 @@
     top: 0;
     z-index: 2;
     /* var(--primary) 99% */
-    color: var(--neonP);
+    color: var(--neonPink);
+}
+
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    /* background-image:url("hamburger_menu.png"); */
 }

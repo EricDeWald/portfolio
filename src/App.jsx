@@ -1,8 +1,8 @@
+import "./app.css"
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact"
-import "./app.css"
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Contact />
       </div>
     </div>
+
   );
 }
 
